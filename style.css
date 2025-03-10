@@ -3,5 +3,27 @@
     list-style: none;
     color: black;
     font-size: 1em;
+    margin: 0;
+    padding: 0;
+
     box-sizing: border-box;
+}
+
+body{
+    display: grid;
+    height: 100vh;
+    grid-template-rows: 1fr 5fr 1fr;
+}
+
+header{
+    background-color: antiquewhite;
+}
+
+main{
+    background-color: azure;
+    display: grid;
+}
+
+footer{
+    background-color: antiquewhite;
 }

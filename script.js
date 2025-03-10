@@ -28,4 +28,5 @@ function addBookToLibrary(
 addBookToLibrary("1984", "Cooper", "1990", "740")
 addBookToLibrary("1984", "Cooper", "1990", "740")
 addBookToLibrary("1984", "Cooper", "1990", "740")
-console.log(library.length)
+
+console.log(`Books in library: ${library.length}`)
