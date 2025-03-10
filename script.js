@@ -9,5 +9,13 @@ function Book(name, author, year, pages, uuid) {
 }
 
 function addBookToLibrary() {
-
+    const newBook = new Book(
+        newBookName, 
+        newBookAuthor, 
+        newBookYear, 
+        newBookPages, 
+        crypto.randomUUID(),
+    );
+    library.push(newBook);
 }
+
