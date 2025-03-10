@@ -8,7 +8,12 @@ function Book(name, author, year, pages, uuid) {
      this.uuid - uuid;
 }
 
-function addBookToLibrary() {
+function addBookToLibrary(
+    newBookName, 
+    newBookAuthor, 
+    newBookYear, 
+    newBookPages, 
+) {
     const newBook = new Book(
         newBookName, 
         newBookAuthor, 
@@ -19,3 +24,8 @@ function addBookToLibrary() {
     library.push(newBook);
 }
 
+// TEST
+addBookToLibrary("1984", "Cooper", "1990", "740")
+addBookToLibrary("1984", "Cooper", "1990", "740")
+addBookToLibrary("1984", "Cooper", "1990", "740")
+console.log(library.length)
